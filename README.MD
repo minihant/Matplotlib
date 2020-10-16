@@ -27,7 +27,7 @@
 4. Slope Chart
 5. Dumbbell Plot
 
-## __Distribution(分配)__
+## __Distribution(分佈)__
 1. Histogram for Continuous Variable
 2. Histogram for Categorical Variable
 3. Density Plot
