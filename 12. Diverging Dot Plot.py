@@ -28,7 +28,7 @@ print(sns.__version__)
 # However compared to diverging bars, the absence of bars
 #  reduces the amount of contrast and disparity between the groups.
 # Prepare Data
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mtcars.csv")
+df = pd.read_csv("data/mtcars.csv")
 x = df.loc[:, ['mpg']]
 df['mpg_z'] = (x - x.mean())/x.std()
 df['colors'] = ['red' if x < 0 else 'darkgreen' for x in df['mpg_z']]

@@ -31,7 +31,7 @@ import warnings; warnings.simplefilter('ignore')
 sns.set_style("white")
 
 # Step 1: Prepare Data
-midwest = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/midwest_filter.csv")
+midwest = pd.read_csv("data/midwest_filter.csv")
 
 # As many colors as there are unique midwest['category']
 categories = np.unique(midwest['category'])

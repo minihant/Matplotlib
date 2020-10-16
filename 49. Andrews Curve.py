@@ -28,7 +28,7 @@ print(sns.__version__)
 from pandas.plotting import andrews_curves
 
 # Import
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mtcars.csv")
+df = pd.read_csv("data/mtcars.csv")
 df.drop(['cars', 'carname'], axis=1, inplace=True)
 
 # Plot

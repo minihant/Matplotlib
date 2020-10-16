@@ -31,7 +31,7 @@ import numpy as np
 import pandas as pd
 
 # Prepare Data
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/economics.csv", parse_dates=['date']).head(100)
+df = pd.read_csv("data/economics.csv", parse_dates=['date']).head(100)
 x = np.arange(df.shape[0])
 y_returns = (df.psavert.diff().fillna(0)/df.psavert.shift(1)).fillna(0) * 100
 

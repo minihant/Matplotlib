@@ -27,7 +27,7 @@ print(sns.__version__)
 
 import matplotlib.lines as mlines
 # Import Data
-df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/gdppercap.csv")
+df = pd.read_csv("data/gdppercap.csv")
 
 left_label = [str(c) + ', '+ str(round(y)) for c, y in zip(df.continent, df['1952'])]
 right_label = [str(c) + ', '+ str(round(y)) for c, y in zip(df.continent, df['1957'])]

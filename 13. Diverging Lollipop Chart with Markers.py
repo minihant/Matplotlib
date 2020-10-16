@@ -28,7 +28,7 @@ print(sns.__version__)
 # by laying emphasis on any significant datapoints you want to bring attention 
 # to and give reasoning within the chart appropriately.
 # Prepare Data
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mtcars.csv")
+df = pd.read_csv("data/mtcars.csv")
 x = df.loc[:, ['mpg']]
 df['mpg_z'] = (x - x.mean())/x.std()
 df['colors'] = 'black'

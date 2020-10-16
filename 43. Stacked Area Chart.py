@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Import Data
-df = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/nightvisitors.csv')
+df = pd.read_csv('data/nightvisitors.csv')
 
 # Decide Colors 
 mycolors = ['tab:red', 'tab:blue', 'tab:green', 'tab:orange', 'tab:brown', 'tab:grey', 'tab:pink', 'tab:olive']      

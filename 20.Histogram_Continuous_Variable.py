@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Import Data
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mpg_ggplot2.csv")
+df = pd.read_csv("data/mpg_ggplot2.csv")
 
 # Prepare data
 x_var = 'displ'

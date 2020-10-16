@@ -28,7 +28,7 @@ print(sns.__version__)
 # !pip install joypy
 # Import Data
 import joypy
-mpg = pd.read_csv("https://github.com/selva86/datasets/raw/master/mpg_ggplot2.csv")
+mpg = pd.read_csv("data/mpg_ggplot2.csv")
 
 # Draw Plot
 plt.figure(figsize=(16,10), dpi= 80)

@@ -26,7 +26,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #----------------------------------------------
 # Import Data
-df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/mpg_ggplot2.csv")
+df = pd.read_csv("data/mpg_ggplot2.csv")
 
 # Draw Stripplot
 fig, ax = plt.subplots(figsize=(16,10), dpi= 80)    

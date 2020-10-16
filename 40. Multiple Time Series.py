@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Import Data
-df = pd.read_csv('https://github.com/selva86/datasets/raw/master/mortality.csv')
+df = pd.read_csv('data/mortality.csv')
 
 # Define the upper limit, lower limit, interval of Y axis and colors
 y_LL = 100

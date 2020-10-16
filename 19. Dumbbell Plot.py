@@ -27,7 +27,7 @@ print(sns.__version__)
 import matplotlib.lines as mlines
 
 # Import Data
-df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/health.csv")
+df = pd.read_csv("data/health.csv")
 df.sort_values('pct_2014', inplace=True)
 df.reset_index(inplace=True)
 

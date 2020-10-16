@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #----------------------------------------------
 # Import Dataset
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mtcars.csv")
+df = pd.read_csv("data/mtcars.csv")
 
 # Plot
 plt.figure(figsize=(12,10), dpi= 80)

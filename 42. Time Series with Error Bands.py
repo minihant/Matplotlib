@@ -29,7 +29,7 @@ print(sns.__version__)
 from scipy.stats import sem
 
 # Import Data
-df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/user_orders_hourofday.csv")
+df = pd.read_csv("data/user_orders_hourofday.csv")
 df_mean = df.groupby('order_hour_of_day').quantity.mean()
 df_se = df.groupby('order_hour_of_day').quantity.apply(sem).mul(1.96)
 

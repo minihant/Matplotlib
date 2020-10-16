@@ -27,7 +27,7 @@ print(sns.__version__)
 import scipy.cluster.hierarchy as shc
 
 # Import Data
-df = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/USArrests.csv')
+df = pd.read_csv('data/USArrests.csv')
 
 # Plot
 plt.figure(figsize=(16, 10), dpi= 80)  

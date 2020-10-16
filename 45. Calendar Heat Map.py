@@ -29,7 +29,7 @@ import matplotlib as mpl
 import calmap
 
 # Import Data
-df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/yahoo.csv", parse_dates=['date'])
+df = pd.read_csv("data/yahoo.csv", parse_dates=['date'])
 df.set_index('date', inplace=True)
 
 # Plot

@@ -26,7 +26,7 @@ print(sns.__version__)
 #-------------------------------------
 
 # Prepare Data
-df_raw = pd.read_csv("https://github.com/selva86/datasets/raw/master/mpg_ggplot2.csv")
+df_raw = pd.read_csv("data/mpg_ggplot2.csv")
 df = df_raw[['cty', 'manufacturer']].groupby('manufacturer').apply(lambda x: x.mean())
 df.sort_values('cty', inplace=True)
 df.reset_index(inplace=True)

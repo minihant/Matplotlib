@@ -27,7 +27,7 @@ print(sns.__version__)
 from dateutil.parser import parse 
 
 # Import Data
-df = pd.read_csv('https://github.com/selva86/datasets/raw/master/AirPassengers.csv')
+df = pd.read_csv('data/AirPassengers.csv')
 
 # Prepare data
 df['year'] = [parse(d).year for d in df.date]

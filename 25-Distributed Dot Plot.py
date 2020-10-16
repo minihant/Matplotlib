@@ -27,7 +27,7 @@ print(sns.__version__)
 import matplotlib.patches as mpatches
 
 # Prepare Data
-df_raw = pd.read_csv("https://github.com/selva86/datasets/raw/master/mpg_ggplot2.csv")
+df_raw = pd.read_csv("data/mpg_ggplot2.csv")
 cyl_colors = {4:'tab:red', 5:'tab:green', 6:'tab:blue', 8:'tab:orange'}
 df_raw['cyl_color'] = df_raw.cyl.map(cyl_colors)
 

@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Import Data
-df = pd.read_csv('https://github.com/selva86/datasets/raw/master/AirPassengers.csv')
+df = pd.read_csv('data/AirPassengers.csv')
 
 # Get the Peaks and Troughs
 data = df['value'].values

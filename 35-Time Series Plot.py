@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Import Data
-df = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/AirPassengers.csv')
+df = pd.read_csv('data/AirPassengers.csv')
 
 # Draw Plot
 plt.figure(figsize=(16,10), dpi= 80)

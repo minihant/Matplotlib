@@ -27,7 +27,7 @@ print(sns.__version__)
 from pandas.plotting import parallel_coordinates
 
 # Import Data
-df_final = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/diamonds_filter.csv")
+df_final = pd.read_csv("data/diamonds_filter.csv")
 
 # Plot
 plt.figure(figsize=(12,9), dpi= 80)

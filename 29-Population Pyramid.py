@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Read data
-df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/email_campaign_funnel.csv")
+df = pd.read_csv("data/email_campaign_funnel.csv")
 
 # Draw Plot
 plt.figure(figsize=(13,10), dpi= 80)

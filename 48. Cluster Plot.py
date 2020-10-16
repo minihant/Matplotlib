@@ -29,7 +29,7 @@ from sklearn.cluster import AgglomerativeClustering
 from scipy.spatial import ConvexHull
 
 # Import Data
-df = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/USArrests.csv')
+df = pd.read_csv('data/USArrests.csv')
 
 # Agglomerative Clustering
 cluster = AgglomerativeClustering(n_clusters=5, affinity='euclidean', linkage='ward')  

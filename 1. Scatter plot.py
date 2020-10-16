@@ -27,7 +27,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #----------------------------------------------
 # Import dataset 
-midwest = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/midwest_filter.csv")
+midwest = pd.read_csv("data/midwest_filter.csv")
 
 # Prepare Data 
 # Create as many colors as there are unique midwest['category']

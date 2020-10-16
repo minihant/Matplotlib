@@ -28,7 +28,7 @@ print(sns.__version__)
 import squarify 
 
 # Import Data
-df_raw = pd.read_csv("https://github.com/selva86/datasets/raw/master/mpg_ggplot2.csv")
+df_raw = pd.read_csv("data/mpg_ggplot2.csv")
 
 # Prepare Data
 df = df_raw.groupby('class').size().reset_index(name='counts')

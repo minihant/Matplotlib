@@ -25,7 +25,7 @@ print(mpl.__version__)
 print(sns.__version__)
 #-------------------------------------
 # Import Data
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/economics.csv")
+df = pd.read_csv("data/economics.csv")
 
 x = df['date']
 y1 = df['psavert']

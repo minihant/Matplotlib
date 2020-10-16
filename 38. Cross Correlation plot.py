@@ -27,7 +27,7 @@ print(sns.__version__)
 import statsmodels.tsa.stattools as stattools
 
 # Import Data
-df = pd.read_csv('https://github.com/selva86/datasets/raw/master/mortality.csv')
+df = pd.read_csv('data/mortality.csv')
 x = df['mdeaths']
 y = df['fdeaths']
 

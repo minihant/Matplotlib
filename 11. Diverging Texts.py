@@ -26,7 +26,7 @@ print(sns.__version__)
 # preferred if you want to show the value of each items 
 # within the chart in a nice and presentable way.
 # Prepare Data
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mtcars.csv")
+df = pd.read_csv("data/mtcars.csv")
 x = df.loc[:, ['mpg']]
 df['mpg_z'] = (x - x.mean())/x.std()
 df['colors'] = ['red' if x < 0 else 'green' for x in df['mpg_z']]

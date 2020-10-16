@@ -31,7 +31,7 @@ print(sns.__version__)
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 
 # Import Data
-df = pd.read_csv('https://github.com/selva86/datasets/raw/master/AirPassengers.csv')
+df = pd.read_csv('data/AirPassengers.csv')
 
 # Draw Plot
 fig, (ax1, ax2) = plt.subplots(1, 2,figsize=(16,6), dpi= 80)
