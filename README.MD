@@ -71,7 +71,7 @@
 ## __A. Correlation__
 ### 1. Scatter plot
 > Scatteplot是用於研究兩個變量之間關係的經典基礎圖。 如果數據中有多個組，則可能需要以不同的顏色可視化每個組。 在matplotlib中，您可以使用plt.scatterplot（）方便地執行此操作。
-
+![Alt text](resource/1_Scatterplot_Matplotlib-min.png){ width: 200px; }
 ### 2. Bubble plot with Encircling
 > 有時您想在邊界內顯示一組點以強調其重要性。 在此示例中，您從應該被環繞的數據框中獲取記錄，並將其傳遞給下面的代碼中描述的encircle（）。
 
