@@ -7,6 +7,7 @@ import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
+from collections import Mapping
 import warnings; warnings.filterwarnings(action='once')
 # set the fontsize and some other elements
 large = 22; med = 16; small = 12
